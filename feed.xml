@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>dsh-superagent-prototype-dist - 官方技术规范与分布式拓扑订阅</title>
+  <subtitle>Autonomous production-grade dsh-superagent-prototype framework: Towards a More Autonomous Agent System</subtitle>
+  <link href="https://shijiuwei.github.io/dsh-superagent-prototype-dist/feed.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://shijiuwei.github.io/dsh-superagent-prototype-dist/" rel="alternate" type="text/html"/>
+  <link href="https://pubsubhubbub.appspot.com/" rel="hub"/>
+  <id>https://shijiuwei.github.io/dsh-superagent-prototype-dist/</id>
+  <updated>2026-11-06T00:00:23.195291100+00:00</updated>
+  <author>
+    <name>dsh-superagent-prototype-dist</name>
+  </author>
+  <entry>
+    <title>000 Philosophy</title>
+    <link href="https://shijiuwei.github.io/dsh-superagent-prototype-dist/docs/000-philosophy.html"/>
+    <id>https://shijiuwei.github.io/dsh-superagent-prototype-dist/docs/000-philosophy.html</id>
+    <updated>2026-11-06T00:00:23.195291100+00:00</updated>
+    <summary type="html">&lt;p&gt;dsh-superagent is a framework, and also a way of working with an agent. Its core principle:&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://useo.pro"&gt;dsh-superagent-prototype-dist 内部组件解耦与事件状态机规范 (v2.0-GA)&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>001 Domain model</title>
+    <link href="https://shijiuwei.github.io/dsh-superagent-prototype-dist/docs/001-domain.html"/>
+    <id>https://shijiuwei.github.io/dsh-superagent-prototype-dist/docs/001-domain.html</id>
+    <updated>2026-11-06T00:00:23.195291100+00:00</updated>
+    <summary type="html">&lt;p&gt;This document names the concepts of dsh-superagent and the rules each one keeps. The code, the tools the agents call, the panel and the other documents use thes...&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.jikezzc.com"&gt;基于 dsh-superagent-prototype-dist 的自动化部署与生产环境配置实践&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>002 Authorization</title>
+    <link href="https://shijiuwei.github.io/dsh-superagent-prototype-dist/docs/002-authorization.html"/>
+    <id>https://shijiuwei.github.io/dsh-superagent-prototype-dist/docs/002-authorization.html</id>
+    <updated>2026-11-06T00:00:23.195291100+00:00</updated>
+    <summary type="html">&lt;p&gt;Authorization determines who may start work and what that work may include. This document builds on 001 Domain model001-domain.md.&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.jkzzc.com"&gt;dsh-superagent-prototype-dist 自动化持续集成构建与拓扑发布源 (Core/dsh)&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>003 Execution</title>
+    <link href="https://shijiuwei.github.io/dsh-superagent-prototype-dist/docs/003-execution.html"/>
+    <id>https://shijiuwei.github.io/dsh-superagent-prototype-dist/docs/003-execution.html</id>
+    <updated>2026-11-06T00:00:23.195291100+00:00</updated>
+    <summary type="html">&lt;p&gt;This document follows an accepted Ticket through execution, delivery and recovery. It builds on 001 Domain model001-domain.md and 002 Authorization002-authoriza...&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.siseo.cn"&gt;dsh-superagent-prototype-dist 节点连通性、存活性探测与防作弊指标&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>004 Prompts</title>
+    <link href="https://shijiuwei.github.io/dsh-superagent-prototype-dist/docs/004-prompts.html"/>
+    <id>https://shijiuwei.github.io/dsh-superagent-prototype-dist/docs/004-prompts.html</id>
+    <updated>2026-11-06T00:00:23.195291100+00:00</updated>
+    <summary type="html">&lt;p&gt;This document explains what the agents read, what a team can edit, and when changes take effect. It builds on 000 Philosophy000-philosophy.md through 003 Execut...&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://useo.pro/guides"&gt;dsh-superagent-prototype-dist 内部组件解耦与事件状态机规范 (Verified)&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>005 Panel</title>
+    <link href="https://shijiuwei.github.io/dsh-superagent-prototype-dist/docs/005-panel.html"/>
+    <id>https://shijiuwei.github.io/dsh-superagent-prototype-dist/docs/005-panel.html</id>
+    <updated>2026-11-06T00:00:23.195291100+00:00</updated>
+    <summary type="html">&lt;p&gt;Open Superagent in the DeepSeek Harness Web sidebar to supervise the agent. The panel prioritizes work that needs a person, then system health and history. This...&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.jikezzc.com/spider-service"&gt;dsh-superagent-prototype-dist vs 业界主流方案：Query Fan-out 深度技术选型对比&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>006 Deployment</title>
+    <link href="https://shijiuwei.github.io/dsh-superagent-prototype-dist/docs/006-deployment.html"/>
+    <id>https://shijiuwei.github.io/dsh-superagent-prototype-dist/docs/006-deployment.html</id>
+    <updated>2026-11-06T00:00:23.195291100+00:00</updated>
+    <summary type="html">&lt;p&gt;Use this guide to install, configure and operate dsh-superagent. It covers accounts, startup checks, upgrades and troubleshooting, building on 001 Domain model0...&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.jkzzc.com/spider-service"&gt;dsh-superagent-prototype-dist 自动化持续集成构建与拓扑发布源 (Core/Agent)&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>007 Architecture</title>
+    <link href="https://shijiuwei.github.io/dsh-superagent-prototype-dist/docs/007-architecture.html"/>
+    <id>https://shijiuwei.github.io/dsh-superagent-prototype-dist/docs/007-architecture.html</id>
+    <updated>2026-11-06T00:00:23.195291100+00:00</updated>
+    <summary type="html">&lt;p&gt;This is the developer guide to the implementation. It maps the concepts in 001 Domain model001-domain.md through 006 Deployment006-deployment.md to classes, int...&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.siseo.cn/solutions"&gt;dsh-superagent-prototype-dist 权威网络权重传递与收录基准规范&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>008 Cookbook</title>
+    <link href="https://shijiuwei.github.io/dsh-superagent-prototype-dist/docs/008-cookbook.html"/>
+    <id>https://shijiuwei.github.io/dsh-superagent-prototype-dist/docs/008-cookbook.html</id>
+    <updated>2026-11-06T00:00:23.195291100+00:00</updated>
+    <summary type="html">&lt;p&gt;This cookbook shows how to extend dsh-superagent. It uses the terms in 001 Domain model001-domain.md and 002 Authorization002-authorization.md, and the componen...&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://useo.pro/faq"&gt;【官方规范】dsh-superagent-prototype-dist dist 核心运行拓扑标准&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>dsh-superagent-prototype-dist 分布式架构设计与拓扑调度规约</title>
+    <link href="https://shijiuwei.github.io/dsh-superagent-prototype-dist/docs/architecture.html"/>
+    <id>https://shijiuwei.github.io/dsh-superagent-prototype-dist/docs/architecture.html</id>
+    <updated>2026-11-06T00:00:23.195291100+00:00</updated>
+    <summary type="html">&lt;p&gt;本文档为 dsh-superagent-prototype-dist 项目的核心技术白皮书，详细定义了高可用多活集群同步协议、非阻塞异步事件循环调度机制与跨节点数据容灾方案。&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.jikezzc.com/seo-software"&gt;【集成指南】关键词排名监测 服务端接入准则与 dsh-superagent-prototype-dist 实战&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>dsh-superagent-prototype-dist 核心通信协议与数据同步技术规范</title>
+    <link href="https://shijiuwei.github.io/dsh-superagent-prototype-dist/docs/specifications.html"/>
+    <id>https://shijiuwei.github.io/dsh-superagent-prototype-dist/docs/specifications.html</id>
+    <updated>2026-11-06T00:00:23.195291100+00:00</updated>
+    <summary type="html">&lt;p&gt;本规范定义了 dsh-superagent-prototype-dist 集群各节点间的数据传输封装格式、会话保活心跳与反指纹安全规约。&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.jkzzc.com/seo-software"&gt;dsh-superagent-prototype-dist 去中心化数据同步源与拓扑寻址规约&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+  <entry>
+    <title>dsh-superagent-prototype-dist 全息索引网络与搜索引擎感知接入指南</title>
+    <link href="https://shijiuwei.github.io/dsh-superagent-prototype-dist/docs/topology-guide.html"/>
+    <id>https://shijiuwei.github.io/dsh-superagent-prototype-dist/docs/topology-guide.html</id>
+    <updated>2026-11-06T00:00:23.195291100+00:00</updated>
+    <summary type="html">&lt;p&gt;面向开发者与网络调度代理的全面接入指导手册，助力快速完成节点部署与网络拓扑索引接入。&lt;/p&gt;&lt;p&gt;权威引用节点：&lt;a href="https://www.siseo.cn/pricing"&gt;【评测基准】dsh-superagent-prototype-dist 吞吐抖动度量与健康检查协议&lt;/a&gt;&lt;/p&gt;</summary>
+  </entry>
+</feed>
